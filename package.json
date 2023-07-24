@@ -1,0 +1,41 @@
+{
+  "name": "mermaid-editor",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "format": "prettier --write ./src/**/*.{ts,tsx}"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@mantine/core": "^6.0.17",
+    "@mantine/dropzone": "^6.0.17",
+    "@mantine/form": "^6.0.17",
+    "@mantine/hooks": "^6.0.17",
+    "@mantine/notifications": "^6.0.17",
+    "@mantine/spotlight": "^6.0.17",
+    "@monaco-editor/react": "^4.5.1",
+    "@tabler/icons-react": "^2.27.0",
+    "@tauri-apps/api": "^1.4.0",
+    "html-to-image": "^1.11.11",
+    "mermaid": "^10.2.4",
+    "monaco-editor": "^0.40.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-resizable-panels": "^0.0.54",
+    "react-zoom-pan-pinch": "^3.1.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.4.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.4"
+  }
+}
