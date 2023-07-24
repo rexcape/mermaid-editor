@@ -5,8 +5,6 @@ import { Notifications } from '@mantine/notifications'
 import App from './App'
 import { mantineConfig } from './theme'
 
-import './global.css'
-
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <MantineProvider {...mantineConfig}>
